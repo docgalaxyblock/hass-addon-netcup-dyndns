@@ -1,0 +1,32 @@
+---
+version: 2022.12.26
+name: Netcup DynDNS
+slug: netcup-dyndns
+description: Dynamic DNS (DynDNS or DDNS) service for Netcup domains
+url: https://github.com/docgalaxyblock/hassio-addon-netcup-dyndns
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+boot: auto
+init: false
+options:
+  interval: null
+  customer: null
+  api_key: null
+  api_pass: null
+  domainlist: null
+  ipv6: false
+  change_ttl: true
+schema:
+  interval: int
+  customer: int
+  api_key: password
+  api_pass: password
+  domainlist: str
+  ipv6: bool
+  change_ttl: bool
+startup: application
+timeout: 10

@@ -1,0 +1,19 @@
+---
+configuration:
+  interval:
+    name: Intervall
+  customer:
+    name: Customer number
+  api_key:
+    name: API Key
+  api_pass:
+    name: API Password
+  ipv6:
+    name: IPV6
+  change_ttl:
+    name: Change TTL
+    description: 
+  domainlist:
+    name: Domainlist
+    description: >-
+      Example domainlist: "myfirstdomain.com: www, dns; myseconddomain.com: @, *, some-subdomain"
