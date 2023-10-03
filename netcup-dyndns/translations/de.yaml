@@ -1,0 +1,21 @@
+---
+configuration:
+  interval:
+    name: Intervall
+  customer:
+    name: Kundennummer
+  api_key:
+    name: API Key
+  api_pass:
+    name: API Password
+  ipv4:
+    name: IPv4
+  ipv6:
+    name: IPv6
+  change_ttl:
+    name: Change TTL
+    description: 
+  domainlist:
+    name: Domainliste
+    description: >-
+      Beispiel Domainliste: "meineerstedomain.de: www, dns; meinezweitedomain.de: @, *, irgendeine-subdomain"
